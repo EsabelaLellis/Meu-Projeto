@@ -1,78 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-         <title>Esabela Lellis</title>
+         <title>Desvendando o HTML</title>
          <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1 id="title"> Transforma Tec - DIO </h1>
-         <h2 class="subtitle">Introdução ao HTML</h2>
+        <header class="menu">
+            <h1>Transforma TEC</h1>
+        </header>
+        <nav>
+            <li>Início</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Introdução ao JavaScript</li>
+        </nav>
+
+        <main>
+            <h4> Exercícios em aula</h4>
+                <ol>
+                    <li>Configuramos a IDE - VsCode</li>
+                    <li>Primeiros passos no HTML</li>
+                    <li>Navegação entre páginas</li>
+                    <li>Criando um Formulário</li>
+                    <li>Resolução de Exercícios</li>
+                    <li>Aprendendo Sobre CSS</li>
+                  </ol>
+
+            <p> 
+                Um paragrafo de Texto é usado com a tag "p"
+            </p>
     
-            <h4 class="post_title"> Exercícios em aula</h4>
-        <div>
-            <ol>
-                <li>Configuramos a IDE - VsCode</li>
-                <li>Primeiros passos no HTML</li>
-                <li>Navegação entre páginas (link)</li>
-                <li>Criando um Formulário</li>
-                <li>Resolução de Exercícios</li>
-                <li>Aprendendo Sobre CSS</li>
-              </ol>
-        </div>
-        <p> 
-            Um paragrafo de Texto é usado com a tag "p"
-        </p>
+            <a href="http://dio.me" target="_blank">Site da Dio.me</a>
 
-        <a href="http://dio.me" target="_blank">Site da Dio.me</a><br><br>
-       <br>
-
+        </main>
+       
         <footer>
-        
-            <div  class="flex-container"></div>
-                    <a href="mailto:esa.lellis@gmail.com" target="_blank"></a> 
-                    <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" aling="center" height="60" width="60"> 
-                    
+           
+            <a href="mailto:esa.lellis@gmail.com" target="_blank"></a> <br><br><br>
+             <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" aling="center" height="60" width="60">      
 
-
-                    <a href="https://www.linkedin.com/in/esabela-lellis-b2b1299a/" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/esabela-lellis-b2b1299a/" target="_blank"></a> <br>
                     
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" aling="center" height="70" width="60" /> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" aling="center" height="70" width="60"/> <br>
           
                 
-                    <a href="https://github.com/EsabelaLellis" target="_blank"></a>
+            <a href="https://github.com/EsabelaLellis" target="_blank"></a><br>
                     
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" aling="center" height="70" width="60" /><br><br><br>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" aling="center" height="70" width="60"/><br>
 
-                </div>
         
-               <form action="formularia-de-dados" method="post"></form>
-           
+                <form action="formularia-de-dados" method="post"></form>
+                
+                <h4> Deixe sua Mensagem:</h4>
+                
+                <label for="name">Nome</label> <br>
+                <input type="text" id="nome">
+            
+                <label for="email">E-mail</label> <br>
+                <input type="email" id="email">
                
-               <h4 class="post_title"> Deixe sua Mensagem:</h4>
-               
-            <div>
-               <label for="name">Nome</label>
-               <input type="text" id="nome"><br><br>
-               </div>
-               <div>
-                <label for="email">E-mail</label>
-                <input type="email" id="email"><br><br>
-               </div>
-              
-               <div>
-               <label for="msg">Sua Mensagem</label>
-               <textarea id="mensagem"></textarea><br>
+               <label for="msg">Sua Mensagem</label><br>
+               <textarea id="mensagem"></textarea>
                <input type="submit">
-
-           </div>      
-           </div> 
-          
         </footer>
-        
     </body>
 </html>
