@@ -6,22 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
          <title>Desvendando o HTML</title>
-         <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="./style.css">
     </head>
 
     <body>
-        <header class="menu">
+    <header>
             <h1>Transforma TEC</h1>
-        </header>
         <nav>
             <li>Início</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>Introdução ao JavaScript</li>
         </nav>
+    </header>
 
         <main>
-            <h4> Exercícios em aula</h4>
+            <section>
+              <h4> Exercícios</h4>
                 <ol>
                     <li>Configuramos a IDE - VsCode</li>
                     <li>Primeiros passos no HTML</li>
@@ -30,33 +31,29 @@
                     <li>Resolução de Exercícios</li>
                     <li>Aprendendo Sobre CSS</li>
                   </ol>
-
+            </section>
+           
             <p> 
-                Um paragrafo de Texto é usado com a tag "p"
+                Um paragrafo de Texto Um paragrafo de Texto <br>
+                Um paragrafo de Texto Um paragrafo de Texto <br>
+                Um paragrafo de Texto Um paragrafo de Texto <br>
             </p>
     
-            <a href="http://dio.me" target="_blank">Site da Dio.me</a>
-
+           
+            <article>
+                Aqui está o conteúdo relacionado a página <br>
+                Aqui está o conteúdo relacionado a página <br>
+                Aqui está o conteúdo relacionado a página <br>
+                Aqui está o conteúdo relacionado a página <br> <br>
+               <strong>Clique e conheça + a DIO </strong> <br> 
+                <a href="http://dio.me" target="_blank">Site da Dio.me</a> <br>
+            </article>
         </main>
        
         <footer>
            
-            <a href="mailto:esa.lellis@gmail.com" target="_blank"></a> <br><br><br>
-             <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" aling="center" height="60" width="60">      
-
-            <a href="https://www.linkedin.com/in/esabela-lellis-b2b1299a/" target="_blank"></a> <br>
-                    
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" aling="center" height="70" width="60"/> <br>
-          
-                
-            <a href="https://github.com/EsabelaLellis" target="_blank"></a><br>
-                    
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" aling="center" height="70" width="60"/><br>
-
-        
-                <form action="formularia-de-dados" method="post"></form>
-                
-                <h4> Deixe sua Mensagem:</h4>
+                <form  method="post">                
+                <h3> Deixe sua Mensagem:</h3> <br>
                 
                 <label for="name">Nome</label> <br>
                 <input type="text" id="nome">
@@ -65,8 +62,27 @@
                 <input type="email" id="email">
                
                <label for="msg">Sua Mensagem</label><br>
-               <textarea id="mensagem"></textarea>
-               <input type="submit">
+               <textarea id="mensagem"></textarea> <br>
+
+               <button type="button"> Quero Enviar</button> <br>
+
+               </form>
+              
+               <div class="rodape">
+                <a href="mailto:esa.lellis@gmail.com" target="_blank"></a> <br><br><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" aling="center" height="60" width="60">      
+
+                <a href="https://www.linkedin.com/in/esabela-lellis-b2b1299a/" target="_blank"></a> <br>
+                        
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original-wordmark.svg" aling="center" height="70" width="60"/> <br>
+                
+                    
+                <a href="https://github.com/EsabelaLellis" target="_blank"></a><br>
+                        
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" aling="center" height="70" width="60"/><br>
+
+               </div>
+            
         </footer>
     </body>
 </html>
